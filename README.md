@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -84,7 +83,7 @@
   <p>Learning IoT, ESP32, Smart Energy Systems, Smart Buildings, Embedded Systems</p>
   <p>
     <a href="https://www.linkedin.com/in/muhammad-awais-a2b102119/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
-    <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i> Email</a>
+    <a href="mailto:aawaiss011@outlook.com"><i class="fas fa-envelope"></i> Email</a>
   </p>
 </header>
 
@@ -133,22 +132,6 @@
       <span>Linux</span>
       <span>VS Code</span>
     </div>
-  </section>
-
-  <section>
-    <h2>GitHub Stats</h2>
-    <div class="stats">
-      <img src="https://github-readme-stats.vercel.app/api?username=muhammadawais92&show_icons=true&theme=tokyonight" alt="GitHub Stats">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammadawais92&layout=compact&theme=tokyonight" alt="Top Languages">
-    </div>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>
-      <a href="https://www.linkedin.com/in/muhammad-awais-a2b102119/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
-      <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i> Email</a>
-    </p>
   </section>
 
 </div>
