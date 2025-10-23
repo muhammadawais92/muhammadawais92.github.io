@@ -1,55 +1,158 @@
-# muhammadawais92.github.io
-# Muhammad Awais 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Awais – Interactive Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0.5rem 0;
+    }
+    header p {
+      margin: 0.2rem 0;
+      font-size: 1.1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #1f2937;
+      border-bottom: 2px solid #1f2937;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    .skills span {
+      display: inline-block;
+      background: #e5e7eb;
+      padding: 0.3rem 0.6rem;
+      margin: 0.2rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .stats img {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
 
-![Visitor](https://visitor-badge.laobi.icu/badge?page_id=muhammadawais92)
+<header>
+  <h1>Muhammad Awais</h1>
+  <p>Master's Student, Computer Science (CPS² Program)</p>
+  <p>Learning IoT, ESP32, Smart Energy Systems, Smart Buildings, Embedded Systems</p>
+  <p>
+    <a href="https://www.linkedin.com/in/muhammad-awais-a2b102119/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
+    <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i> Email</a>
+  </p>
+</header>
 
-I am a **Master's student in Computer Science (CPS² Program)** at Université Jean Monnet Saint-Étienne & Mines Saint-Étienne.  
-I am learning **IoT, ESP32, smart energy systems, smart buildings, embedded systems, AI, digital twins, and cybersecurity**.  
-I enjoy building hands-on prototypes using **MicroPython, Arduino, Gradle, MATLAB, and other tools** as part of my studies.
+<div class="container">
+  
+  <section>
+    <h2>About Me</h2>
+    <p>I am a student exploring IoT, ESP32, smart energy systems, smart buildings, and embedded systems.  
+    I build hands-on prototypes using <strong>MicroPython, Arduino, Gradle, and other tools</strong> as part of my studies.  
+    Passionate about turning ideas into working solutions in smart grids, automation, and digital twins.</p>
+  </section>
 
----
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Master's in Computer Science (CPS² Program)</strong> – Université Jean Monnet & Mines Saint-Étienne (2025–2027)  
+      <em>Focus: IoT, Web & Mobile Apps, AI, Cloud, Digital Twins, Cybersecurity; Applications in Industry 4.0, Smart Cities, Smart Buildings, Intelligent Transport Systems</em></li>
+      <li><strong>Master's in Power Systems and Automation</strong> – North China Electric Power University (2016–2019)</li>
+      <li><strong>Bachelor’s in Electrical Engineering</strong> – Abasyn University (2012–2016), CGPA: 3.88  
+      <em>Activities: IEEE Chapter, Abasyn Adventure Club</em></li>
+    </ul>
+  </section>
 
-## 🎓 Education
+  <section>
+    <h2>Projects & Interests</h2>
+    <ul>
+      <li>IoT & Smart Energy Systems – ESP32 & MicroPython for energy efficiency</li>
+      <li>Smart Buildings & Smart Cities – automation, sensor networks, and data-driven control</li>
+      <li>AI & Digital Twin Applications – modeling complex systems and predicting outcomes</li>
+      <li>Industry 4.0 & Intelligent Transport Systems – integrating devices, data, and software</li>
+    </ul>
+  </section>
 
-- **Master's in Computer Science (CPS² Program)** – Université Jean Monnet & Mines Saint-Étienne (2025–2027)  
-  *Focus: IoT, Web & Mobile Apps, AI, Cloud, Digital Twins, Cybersecurity; Applications in Industry 4.0, Smart Cities, Smart Buildings, Intelligent Transport Systems*
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>C</span>
+      <span>C++</span>
+      <span>MicroPython</span>
+      <span>Gradle</span>
+      <span>MATLAB</span>
+      <span>Arduino</span>
+      <span>Thonny</span>
+      <span>Git</span>
+      <span>Linux</span>
+      <span>VS Code</span>
+    </div>
+  </section>
 
-- **Master's in Power Systems and Automation** – North China Electric Power University (2016–2019)
+  <section>
+    <h2>GitHub Stats</h2>
+    <div class="stats">
+      <img src="https://github-readme-stats.vercel.app/api?username=muhammadawais92&show_icons=true&theme=tokyonight" alt="GitHub Stats">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammadawais92&layout=compact&theme=tokyonight" alt="Top Languages">
+    </div>
+  </section>
 
-- **Bachelor’s in Electrical Engineering** – Abasyn University (2012–2016), CGPA: 3.88  
-  *Activities: IEEE Chapter, Abasyn Adventure Club*
+  <section>
+    <h2>Contact</h2>
+    <p>
+      <a href="https://www.linkedin.com/in/muhammad-awais-a2b102119/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
+      <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i> Email</a>
+    </p>
+  </section>
 
----
+</div>
 
-## 🚀 Projects & Interests
+</body>
+</html>
 
-- **IoT & Smart Energy Systems** – ESP32 & MicroPython projects for energy efficiency  
-- **Smart Buildings & Smart Cities** – automation, sensor networks, and data-driven control  
-- **AI & Digital Twin Applications** – modeling complex systems and predicting outcomes  
-- **Industry 4.0 & Intelligent Transport Systems** – integrating devices, data, and software  
-
----
-
-## 🧰 Skills
-
-**Languages:** Python | C | C++  
-**Hardware:** ESP32 (Adafruit Huzzah / Bluefruit) | Arduino  
-**Frameworks:** MicroPython | Gradle  
-**Tools:** MATLAB | Git | Linux | VS Code | Thonny  
-
----
-
-## 🔗 Connect
-
-[LinkedIn](https://www.linkedin.com/in/muhammad-awais-a2b102119/) | [Email](mailto:aawaiss011@outlook.com)  
-
----
-
-## 💬 Fun Fact
-
-I am exploring and learning to turn complex ideas into working prototypes — from IoT-based energy systems to AI-enabled digital twins.
-
----
-
-cd esp32-projects
-python main.py
